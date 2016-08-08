@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  margin: 10px 30%;
+}
+
+.modal {
+  display: none;
+  z-index: 999999;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(99, 95, 95, .5);
+}
+
+.modal-body {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 20px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #3c3838;
+  border-radius: 5px;
+}
+
+.modal-close {
+  cursor: pointer;
+  width: 100%;
+  height: 20px;
+  text-align: right;
+}
+
+.modal.active {
+  display: block;
+}
+
+.showModal {
+  border: 1px solid;
+  cursor: pointer;
+  padding: 5px;
+  position: fixed;
+  right: 20px;
+  top: 50%;
+}
+
+.showModal:hover {
+  background: #000;
+  color: #fff;
+}
